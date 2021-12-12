@@ -155,3 +155,25 @@ a {
     padding-left: 0;
   }
 }
+
+/* Icons */
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Icons: Shins */
+.icon--primary {
+  fill: var(--color-primary);
+}
+
+.icon-container {
+  background: #f3f8f9;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
