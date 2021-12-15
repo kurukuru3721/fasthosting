@@ -4,3 +4,5 @@ collapsibles.forEach((item) =>
     this.classList.toggle("collapsible--expanded");
   })
 );
+
+document.getElementById("currentYear").innerHTML = (new Date).getFullYear();
